@@ -24,7 +24,7 @@ method="post">
                     <th>:</th>
                     <td>
                         <input type="text" name="kode" id="kode" placeholder="isikan data">
-                        <div class="invalid-feedback"><?= form_error('kode') ?></div>
+                        <div class="invalid-feedback"><?= form_error('kode')?></div>
                     </td>
                 </tr>
                 <tr>
