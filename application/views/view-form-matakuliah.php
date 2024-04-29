@@ -1,12 +1,11 @@
 <html>
-
 <head>
     <title>Form Input Matakuliah</title>
 </head>
 
 <body>
     <center>
-        <form action="<?= base_url('matakuliah/cetak'); ?>"
+        <form  action="<?=     base_url('matakuliah/cetak'); ?>"
 method="post">
             <table>
                 <tr>
@@ -14,6 +13,7 @@ method="post">
                         Form Input Data Mata Kuliah
                     </th>
                 </tr>
+
                 <tr>
                     <td colspan="3">
                         <hr>
@@ -32,7 +32,7 @@ method="post">
                     <td>:</td>
                     <td>
                         <input type="text" name="nama" id="nama" placeholder="isikan data">
-                        <div class="invalid-feedback"><?= form_error('nama')?></div>
+                        <div class="invalid-feedback"><?= form_error('kode') ?></div>
                     </td>
                 </tr>
                 <tr>
@@ -58,4 +58,4 @@ method="post">
     </center>
 </body>
 
-</html> 
+</html>
